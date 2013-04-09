@@ -2,6 +2,7 @@
 # There are better ways to geocode and easier ways than this, but it was a good
 # exercise in using Perl to hit an API. 
 # Your infile needs to have one address on it per line. 
+# Also, my perl code is not nearly this pretty. PerlTidy has been a huge help for that.
 
 
 #!/opt/local/bin/perl5.12
