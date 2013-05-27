@@ -5,7 +5,7 @@ use LWP::Simple;
 &countWords();
 my %wordCount;
 
-print "print the hash of words: \n";
+print "print the number of time \"Hamlet\" is used in Hamlet: \n";
 foreach my $key (keys %wordCount) {
     if ($key =~ /Hamlet/) {
         print "$key => $wordCount{$key}\n";
@@ -27,3 +27,4 @@ sub countWords()
         }
     }
 }
+
